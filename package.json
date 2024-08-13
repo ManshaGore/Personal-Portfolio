@@ -2,11 +2,10 @@
   "name": "personal-portfoli-angular",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "npx ng build --configuration production",
-    "watch": "npx ng build --watch --configuration development",
-    "test": "ng test"
+    "start": "yarn ng serve",
+    "build": "yarn ng build --configuration production",
+    "watch": "yarn ng build --watch --configuration development",
+    "test": "yarn ng test"
   },
   "private": true,
   "dependencies": {
