@@ -4,8 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "npx ng build",
-    "build:prod": "npx ng build --prod",
+    "build": "npx ng build --configuration production",
     "watch": "npx ng build --watch --configuration development",
     "test": "ng test"
   },
@@ -37,5 +36,8 @@
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
     "typescript": "~4.2.0"
+  },
+  "engines": {
+    "node": ">=14.15.0 <16"
   }
 }
