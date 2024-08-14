@@ -5,7 +5,8 @@
     "start": "yarn ng serve",
     "build": "yarn ng build --configuration production",
     "watch": "yarn ng build --watch --configuration development",
-    "test": "yarn ng test"
+    "test": "yarn ng test",
+    "build": "ng build --prod --aot"
   },
   "private": true,
   "dependencies": {
