@@ -283,14 +283,14 @@ Completed my Secondary school with 84%.`
       location: 'Pune',
       timeline: 'Nov 2022 to Present',
       role: 'Software Tester',
-      work: 'Working as a Software Tester.Responsible for designing test case scenario, performing through testing and preparing comprehensive reports.'
+      work: 'Working as a Software Tester. Responsible for designing test case scenario, performing through testing and preparing comprehensive reports.'
 
     },
     {
       id: 3,
       company: 'Springware IT Pvt, Ltd',
       location: 'Pune',
-      timeline: 'Nov 2022 to present',
+      timeline: 'Jan 2024 to present',
       role: 'Software Developer',
       work: `Technologies : Angular , Node JS , MySQL .
       Worked on the web application built in Angular for different business and Campaigns .
