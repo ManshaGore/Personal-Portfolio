@@ -2,11 +2,10 @@
   "name": "personal-portfoli-angular",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "start": "yarn ng serve",
+    "build": "yarn ng build --configuration production",
+    "watch": "yarn ng build --watch --configuration development",
+    "test": "yarn ng test"
   },
   "private": true,
   "dependencies": {
@@ -35,6 +34,9 @@
     "karma-coverage": "~2.0.3",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
-    "typescript": "~4.3.5"
+    "typescript": "~4.2.0"
+  },
+  "engines": {
+    "node": ">=14.15.0 <16"
   }
 }
